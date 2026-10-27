@@ -179,3 +179,21 @@ Gunakan akun default berikut untuk melakukan pengujian aplikasi:
 1. Belum terintegrasi dengan Payment Gateway (transaksi saat ini berbasis pembayaran tunai/manual).
 
 2. Cetak struk belanja masih menggunakan format window print browser bawaan (belum terhubung printer thermal pos otomatis).
+
+## 📸 Tampilan Aplikasi (Screenshots)
+
+### 1. Halaman Utama (Dashboard)
+Tampilan halaman Dashboard yang menyajikan ringkasan data inventaris serta tabel peringatan stok minim secara real-time.
+![Dashboard](public/images/dashboard.png)
+
+### 2. Master Data Produk
+Halaman pengelolaan data produk (CRUD) yang dilengkapi dengan validasi batas stok minimum (minimal 12 unit).
+![Master Data Produk](public/images/produk.png)
+
+### 3. Halaman Transaksi Penjualan
+Form transaksi kasir untuk memproses pembelian produk oleh pelanggan secara aman.
+![Form Transaksi](public/images/transaksi.png)
+
+### 4. Riwayat Penjualan
+Tabel daftar riwayat transaksi yang telah berhasil diproses dengan tampilan format tanggal Bahasa Indonesia.
+![Riwayat Penjualan](public/images/riwayat.png)
